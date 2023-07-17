@@ -10,7 +10,6 @@ namespace FullStack.API.Controllers
     public class EmployeesController : Controller
     {
         private readonly FullStackDbContext _fullStackDbContext;
-
         public EmployeesController(FullStackDbContext fullStackDbContext)
         {
             _fullStackDbContext = fullStackDbContext;
